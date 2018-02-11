@@ -1,0 +1,90 @@
+20:49:31.061[DEBUG][main]i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+20:49:31.069[DEBUG][main]i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+20:49:31.071[DEBUG][main]i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+20:49:31.071[DEBUG][main]i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+20:49:31.071[DEBUG][main]i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+20:49:31.072[DEBUG][main]i.n.util.internal.PlatformDependent - Platform: Windows
+20:49:31.073[DEBUG][main]i.n.util.internal.PlatformDependent - Java version: 8
+20:49:31.073[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+20:49:31.077[DEBUG][main]i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:49:31.077[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+20:49:31.145[DEBUG][main]i.n.util.internal.PlatformDependent - Javassist: available
+20:49:31.145[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+20:49:31.145[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:49:31.145[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:49:31.158[DEBUG][main]i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+20:49:31.162[DEBUG][main]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:49:31.162[DEBUG][main]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20:49:31.394[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20:49:31.395[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20:49:31.453[DEBUG][main]io.netty.channel.DefaultChannelId - -Dio.netty.processId: 10152 (auto-detected)
+20:49:31.562[DEBUG][main]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:49:31.562[DEBUG][main]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+20:49:31.661[DEBUG][main]io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:90:f5:ff:fe:eb:39:06 (auto-detected)
+20:49:31.663[DEBUG][main]i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa1845491b62ccea2 (took 13 ms)
+20:49:31.671[DEBUG][main]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+20:49:31.671[DEBUG][main]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+20:49:31.679[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20:49:31.679[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+20:49:31.679[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:49:31.693[INFO ][nioEventLoopGroup-10-1]i.n.handler.logging.LoggingHandler - [id: 0xb0e18ed5] REGISTERED
+20:49:31.695[INFO ][nioEventLoopGroup-10-1]i.n.handler.logging.LoggingHandler - [id: 0xb0e18ed5] BIND: 0.0.0.0/0.0.0.0:11111
+20:49:31.698[INFO ][nioEventLoopGroup-10-2]i.n.handler.logging.LoggingHandler - [id: 0x63d22edc] REGISTERED
+20:49:31.698[INFO ][nioEventLoopGroup-10-1]i.n.handler.logging.LoggingHandler - [id: 0xb0e18ed5, L:/0:0:0:0:0:0:0:0:11111] ACTIVE
+20:49:31.698[INFO ][nioEventLoopGroup-10-2]i.n.handler.logging.LoggingHandler - [id: 0x63d22edc] BIND: 0.0.0.0/0.0.0.0:22222
+20:49:31.700[INFO ][nioEventLoopGroup-10-2]i.n.handler.logging.LoggingHandler - [id: 0x63d22edc, L:/0:0:0:0:0:0:0:0:22222] ACTIVE
+20:51:46.876[DEBUG][main]i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+20:51:46.883[DEBUG][main]i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+20:51:46.898[DEBUG][main]i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+20:51:46.898[DEBUG][main]i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+20:51:46.898[DEBUG][main]i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+20:51:46.899[DEBUG][main]i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+20:51:46.899[DEBUG][main]i.n.util.internal.PlatformDependent - Platform: Windows
+20:51:46.900[DEBUG][main]i.n.util.internal.PlatformDependent - Java version: 8
+20:51:46.900[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+20:51:46.900[DEBUG][main]i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:51:46.900[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+20:51:46.968[DEBUG][main]i.n.util.internal.PlatformDependent - Javassist: available
+20:51:46.968[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+20:51:46.968[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:51:46.969[DEBUG][main]i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:51:46.985[DEBUG][main]io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:51:46.985[DEBUG][main]io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:51:48.041[DEBUG][main]io.netty.channel.DefaultChannelId - -Dio.netty.processId: 19764 (auto-detected)
+20:51:48.150[DEBUG][main]io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:51:48.151[DEBUG][main]io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+20:51:48.259[DEBUG][main]io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:90:f5:ff:fe:eb:39:06 (auto-detected)
+20:51:48.259[DEBUG][main]i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x41385602269498e7 (took 14 ms)
+20:51:48.267[DEBUG][main]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+20:51:48.267[DEBUG][main]io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+20:51:48.284[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+20:51:48.284[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+20:51:48.284[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20:51:48.284[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20:51:48.285[DEBUG][main]i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20:51:48.292[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20:51:48.292[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+20:51:48.292[DEBUG][main]io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:51:48.306[DEBUG][nioEventLoopGroup-2-1]i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.com.windforce.core.WrequestPacketMatcher
+20:51:48.309[DEBUG][nioEventLoopGroup-2-1]i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.java.net.InetSocketAddressMatcher
+20:51:48.316[DEBUG][nioEventLoopGroup-2-1]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+20:51:48.316[INFO ][nioEventLoopGroup-10-2]i.n.handler.logging.LoggingHandler - [id: 0x63d22edc, L:/0:0:0:0:0:0:0:0:22222] RECEIVED: [id: 0x83cd8a0e, L:/127.0.0.1:22222 - R:/127.0.0.1:12918]
+20:51:48.323[DEBUG][nioEventLoopGroup-11-1]i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.com.windforce.core.WresponsePacketMatcher
+20:51:48.327[DEBUG][nioEventLoopGroup-2-1]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+20:51:48.341[DEBUG][nioEventLoopGroup-11-1]io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+20:51:48.350[DEBUG][nioEventLoopGroup-11-1]io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+20:51:48.362[DEBUG][nioEventLoopGroup-11-1]i.n.channel.DefaultChannelPipeline - Discarded inbound message com.windforce.core.WrequestPacket@1ee7ce22 that reached at the tail of the pipeline. Please check your pipeline configuration.
+20:51:50.681[DEBUG][nioEventLoopGroup-2-1]io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1

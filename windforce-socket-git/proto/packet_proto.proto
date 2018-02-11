@@ -1,0 +1,8 @@
+package com.windforce.core;
+
+message Packet {
+	required int32 module=1;
+	required int32 command=2;
+	optional int32 seq=3;
+	required bytes data=4;
+}
