@@ -105,7 +105,6 @@ public class EventExecutor extends SingleThreadEventExecutor {
 				break;
 			}
 		}
-
 	}
 
 	public Future<?> addTask(AbstractDispatcherHashCodeRunable task) {
