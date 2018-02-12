@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.windforce.dispatcher.IdentityEventExecutorGroup;
+import com.windforce.common.threadpool.IdentityEventExecutorGroup;
 import com.windforce.server.Wserver;
 
 public class TimeServer {

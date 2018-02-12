@@ -16,6 +16,8 @@ import com.baidu.bjf.remoting.protobuf.ProtobufProxy;
 import com.windforce.annotation.SocketClass;
 import com.windforce.annotation.SocketMethod;
 import com.windforce.annotation.SocketPacket;
+import com.windforce.common.threadpool.AbstractDispatcherHashCodeRunable;
+import com.windforce.common.threadpool.IdentityEventExecutorGroup;
 import com.windforce.core.SessionManager;
 import com.windforce.core.WrequestPacket;
 import com.windforce.core.WresponsePacket;

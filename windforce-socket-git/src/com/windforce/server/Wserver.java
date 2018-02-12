@@ -13,9 +13,9 @@ import org.springframework.stereotype.Component;
 
 import com.windforce.coder.WpacketDecoder;
 import com.windforce.coder.WpacketEncoder;
+import com.windforce.common.threadpool.IdentityEventExecutorGroup;
 import com.windforce.config.ServerConfig;
 import com.windforce.config.ServerConfigConstant;
-import com.windforce.dispatcher.IdentityEventExecutorGroup;
 import com.windforce.dispatcher.SocketPacketHandler;
 import com.windforce.filter.firewall.FlowFirewall;
 import com.windforce.filter.firewall.IpFirewall;
