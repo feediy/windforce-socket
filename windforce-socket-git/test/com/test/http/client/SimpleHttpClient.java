@@ -6,6 +6,11 @@ import com.windforce.client.WsynHttpClient;
 
 import junit.framework.TestCase;
 
+/**
+ * 提交了一个测试修改
+ * @author windforce
+ *
+ */
 public class SimpleHttpClient {
 
 	@Test
